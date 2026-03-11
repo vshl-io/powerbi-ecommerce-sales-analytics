@@ -1,6 +1,8 @@
-# AdventureWorks-PowerBI-Dashboard
+# Power BI E-Commerce Sales Analytics Dashboard
 
-**Project Overview:**
+An interactive Power BI dashboard analyzing e-commerce sales performance, customer behavior, product demand, and geographic trends using the AdventureWorks retail dataset.
+
+## Project Overview:
 
 This project analyzes an **e-commerce retail dataset (AdventureWorks)** using Microsoft Power BI to generate business insights around sales performance, customer behavior, product demand, and geographic distribution.
 
@@ -9,7 +11,7 @@ The dashboard simulates how an **e-commerce organization monitors operational pe
 The report is designed to support **data-driven decision making through interactive visual analytics**.
 
 
-**Business Context:**
+## Business Context:
 
 AdventureWorks is modeled as **a global e-commerce retailer** selling products such as bikes, accessories, and clothing across multiple regions.
 
@@ -28,7 +30,7 @@ Business users typically want answers to questions such as:
 This dashboard provides an interactive environment to explore these questions.
 
 
-**Tools & Technologies:**
+## Tools & Technologies:
 
 - Microsoft Power BI
 
@@ -41,13 +43,13 @@ This dashboard provides an interactive environment to explore these questions.
 - Data Visualization
 
 
-**Data Model:**
+## Data Model:
 
-**Schema Design**
+**Schema Design:**
 
 The dashboard is built using a **hybrid dimensional model combining Star Schema and Snowflake Schema**.
 
-**Star Schema Components**
+**Star Schema Components:**
 
 The model contains two main **fact tables**:
 
@@ -77,7 +79,7 @@ The model contains two main **fact tables**:
 
 These dimensions allow analysis across time, customer segments, product attributes, and geographic regions.
 
-**Snowflake Schema (Product Hierarchy)**
+**Snowflake Schema (Product Hierarchy):**
 
 The product dimension is normalized into a hierarchical structure:
 
@@ -88,12 +90,12 @@ The product dimension is normalized into a hierarchical structure:
 This snowflake hierarchy enables scalable product categorization and category-level analysis.
 
 
-**Data Model Diagram**
+### Data Model Diagram
 
 <img width="1919" height="1018" alt="AW_Dashboard_Data_Model" src="https://github.com/user-attachments/assets/d1002c4a-b6c2-4905-914f-c582256e8832" />
 
 
-**Key Business Metrics (KPIs):**
+## Key Business Metrics (KPIs):
 
 The dashboard tracks several important **e-commerce performance indicators**:
 
@@ -122,7 +124,7 @@ The dashboard tracks several important **e-commerce performance indicators**:
 These KPIs allow stakeholders to quickly monitor business performance.
 
 
-**Dashboard Pages:**
+## Dashboard Pages:
 
 **1. Executive Dashboard**
 
@@ -130,13 +132,13 @@ Provides a **high-level overview of e-commerce performance**.
 
 Key insights displayed:
 
-- Total Revenue: $24.9M
+- **Total Revenue:** $24.9M
 
-- Total Profit: $10.5M
+- **Total Profit:** $10.5M
 
-- Total Orders: 25.2K
+- **Total Orders:** 25.2K
 
-- Return Rate: 2.2%
+- **Return Rate:** 2.2%
 
 Other visualizations include:
 
@@ -201,7 +203,7 @@ Key insights include:
 This helps businesses identify **high-value customer segments**.
 
 
-**Drill-Through Navigation:**
+## Drill-Through Navigation:
 
 The dashboard supports **context-based drill-through navigation** for deeper analysis.
 
@@ -217,7 +219,7 @@ Executive Dashboard
 The product detail page automatically filters the report based on the selected product, allowing detailed analysis without cluttering the main dashboard.
 
 
-**Custom Tooltip Pages:**
+## Custom Tooltip Pages:
 
 The dashboard uses custom tooltip pages to provide additional contextual insights without cluttering the main visuals.
 
@@ -252,7 +254,7 @@ Custom tooltips improve the user experience by enabling **quick access to deeper
 This allows the tooltip to dynamically filter based on the category being hovered.
 
 
-**Row Level Security (RLS):**
+## Row Level Security (RLS):
 
 Row-Level Security was implemented to restrict dashboard access based on **regional roles**.
 
@@ -269,7 +271,7 @@ RLS rules were implemented using **DAX filters on the Territory dimension**, ens
 This simulates **enterprise-level data governance and secure reporting access**.
 
 
-**Analytical Capabilities:**
+## Analytical Capabilities:
 
 The dashboard enables analysis across multiple business dimensions:
 
@@ -288,7 +290,7 @@ The dashboard enables analysis across multiple business dimensions:
 These insights help businesses optimize **inventory, pricing, and marketing strategies**.
 
 
-**Business Insights:**
+## Business Insights:
 
 Example insights derived from the dashboard:
 
@@ -305,7 +307,7 @@ Example insights derived from the dashboard:
 These insights help guide **strategic product and sales decisions**.
 
 
-**Skills Demonstrated:**
+## Skills Demonstrated:
 
 This project demonstrates the following analytical and BI skills:
 
@@ -327,7 +329,7 @@ This project demonstrates the following analytical and BI skills:
 
 - Business KPI tracking
 
-**Screenshots:**
+## Screenshots:
 
 **Executive Dashboard**
 
