@@ -209,7 +209,7 @@ The dashboard supports **context-based drill-through navigation** for deeper ana
 
 Users can drill from the **Executive Dashboard’s Top Products table** to a dedicated **Product Detail page**.
 
-**Workflow**
+**Workflow:**
 
 Executive Dashboard
 → Top 10 Products
