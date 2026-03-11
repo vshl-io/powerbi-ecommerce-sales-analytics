@@ -227,7 +227,7 @@ These KPIs allow stakeholders to quickly monitor business performance.
 
 ## Dashboard Pages
 
-**1. Executive Dashboard**
+### 1. Executive Dashboard
 
 Provides a **high-level overview of e-commerce performance**.
 
@@ -253,7 +253,7 @@ Other visualizations include:
 
 This page enables executives to quickly assess overall business health.
 
-**2. Geographic Sales Analysis**
+### 2. Geographic Sales Analysis
 
 This page visualizes **global sales distribution using map visualizations**.
 
@@ -267,7 +267,7 @@ Order volume comparison between countries
 
 This helps businesses identify **regional demand patterns and market opportunities**.
 
-**3. Product Performance Analysis**
+### 3. Product Performance Analysis
 
 This page analyzes **product-level performance and pricing impact**.
 
@@ -285,7 +285,7 @@ Price adjustment simulation using parameter control
 
 This helps evaluate **product profitability and pricing strategy impact**.
 
-**4. Customer Analysis**
+### 4. Customer Analysis
 
 Provides insights into **customer purchasing behavior and segmentation**.
 
@@ -434,27 +434,27 @@ This project demonstrates the following analytical and BI skills:
 
 **Executive Dashboard**
 
-<img width="1919" height="1020" alt="image" src="https://github.com/user-attachments/assets/91cb23c3-c81d-4870-a13d-331070c90374" />
+<img width="1919" height="1020" alt="image" src="https://github.com/user-attachments/assets/91cb23c3-c81d-4870-a13d-331070c90374" /> <br/>
 
 **Geographic Sales Analysis**
 
-<img width="1919" height="1018" alt="image" src="https://github.com/user-attachments/assets/1bf28fd6-7f2d-44f6-b575-72950f928db6" />
+<img width="1919" height="1018" alt="image" src="https://github.com/user-attachments/assets/1bf28fd6-7f2d-44f6-b575-72950f928db6" /> <br/>
 
 **Product Detail Analysis**
 
-<img width="1919" height="1018" alt="image" src="https://github.com/user-attachments/assets/a45abc9d-d0da-43c3-89c9-15f092986cec" />
+<img width="1919" height="1018" alt="image" src="https://github.com/user-attachments/assets/a45abc9d-d0da-43c3-89c9-15f092986cec" /> <br/>
 
 **Customer Analysis**
 
-<img width="1919" height="1020" alt="image" src="https://github.com/user-attachments/assets/8028a292-5248-4eff-9f6e-09280cce4c6b" />
+<img width="1919" height="1020" alt="image" src="https://github.com/user-attachments/assets/8028a292-5248-4eff-9f6e-09280cce4c6b" /> <br/>
 
 **Data Model**
 
-<img width="1919" height="1018" alt="AW_Dashboard_Data_Model" src="https://github.com/user-attachments/assets/d1002c4a-b6c2-4905-914f-c582256e8832" />
+<img width="1919" height="1018" alt="AW_Dashboard_Data_Model" src="https://github.com/user-attachments/assets/d1002c4a-b6c2-4905-914f-c582256e8832" /> <br/>
 
 **Tooltip**
 
-<img width="1919" height="1020" alt="image" src="https://github.com/user-attachments/assets/912856b5-f5b8-4a1c-8444-36b3668ad925" />
+<img width="1919" height="1020" alt="image" src="https://github.com/user-attachments/assets/912856b5-f5b8-4a1c-8444-36b3668ad925" /> <br/>
 
 
 ### Author
