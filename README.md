@@ -10,6 +10,44 @@ The dashboard simulates how an **e-commerce organization monitors operational pe
 
 The report is designed to support **data-driven decision making through interactive visual analytics**.
 
+## Business Problem:
+
+E-commerce companies generate large volumes of transactional data across products, customers, and geographic regions. Business teams need a clear way to monitor sales performance, identify high-performing products, track return rates, and understand customer purchasing behavior.
+
+Without structured analytics, it becomes difficult for decision-makers to quickly identify trends and take action.
+
+## Analytical Approach:
+
+To address this problem, a Power BI dashboard was developed using the AdventureWorks retail dataset.
+
+The solution includes:
+
+- A hybrid star + snowflake data model supporting scalable product hierarchy analysis
+
+- DAX measures for calculating key business KPIs such as revenue, profit, orders, and return rate
+
+- Interactive visualizations enabling drill-through analysis from summary dashboards to detailed product insights
+
+- Custom tooltip pages for contextual category-level insights
+
+- Row-Level Security (RLS) implementation to simulate regional data access control for enterprise reporting scenarios
+
+## Outcome:
+
+The dashboard enables stakeholders to:
+
+- Monitor overall sales performance and profitability
+
+- Identify top-performing products and categories
+
+- Analyze customer purchasing patterns
+
+- Understand regional sales distribution
+
+- Detect high-return products requiring attention
+
+This demonstrates how Power BI can transform raw transactional data into actionable business intelligence for e-commerce operations.
+
 
 ## Business Context:
 
@@ -354,3 +392,13 @@ This project demonstrates the following analytical and BI skills:
 **Tooltip**
 
 <img width="1919" height="1020" alt="image" src="https://github.com/user-attachments/assets/912856b5-f5b8-4a1c-8444-36b3668ad925" />
+
+
+### Author
+
+**Vishal K**
+
+Data Analyst | SQL | Power BI | Business Intelligence
+
+LinkedIn: www.linkedin.com/in/vishal-io
+
