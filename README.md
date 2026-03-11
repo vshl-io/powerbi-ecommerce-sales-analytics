@@ -349,3 +349,6 @@ This project demonstrates the following analytical and BI skills:
 
 <img width="1919" height="1018" alt="AW_Dashboard_Data_Model" src="https://github.com/user-attachments/assets/d1002c4a-b6c2-4905-914f-c582256e8832" />
 
+**Tooltip**
+
+<img width="1919" height="1020" alt="image" src="https://github.com/user-attachments/assets/912856b5-f5b8-4a1c-8444-36b3668ad925" />
