@@ -1,8 +1,6 @@
 # Power BI E-Commerce Sales Analytics Dashboard
 
-<img width="1919" height="1020" alt="image" src="https://github.com/user-attachments/assets/91cb23c3-c81d-4870-a13d-331070c90374" /> 
-
-<br/>
+<img width="1919" height="1020" alt="image" src="https://github.com/user-attachments/assets/91cb23c3-c81d-4870-a13d-331070c90374" /> <br/>
 
 An interactive Power BI dashboard analyzing e-commerce sales performance, customer behavior, product demand, and geographic trends using the AdventureWorks retail dataset.
 
