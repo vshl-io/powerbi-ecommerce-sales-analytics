@@ -1,6 +1,26 @@
 # Power BI E-Commerce Sales Analytics Dashboard
 
+<img width="1919" height="1020" alt="image" src="https://github.com/user-attachments/assets/91cb23c3-c81d-4870-a13d-331070c90374" /> 
+</>
+
 An interactive Power BI dashboard analyzing e-commerce sales performance, customer behavior, product demand, and geographic trends using the AdventureWorks retail dataset.
+
+## Project Highlights:
+
+- Hybrid Star + Snowflake data model
+
+- Interactive executive KPI dashboard
+
+- Drill-through navigation for product-level analysis
+
+- Custom tooltip pages for contextual insights
+
+- Row Level Security (RLS) for regional access control
+
+- Price adjustment parameter simulation (what-if analysis)
+
+- Multi-page business intelligence reporting dashboard
+
 
 ## Project Overview:
 
@@ -48,6 +68,9 @@ The dashboard enables stakeholders to:
 
 This demonstrates how Power BI can transform raw transactional data into actionable business intelligence for e-commerce operations.
 
+## Relevant Domain Experience
+
+This project aligns with my professional experience working with large-scale **e-commerce catalog and operational datasets at Amazon**, where I analyzed product performance, returns, and marketplace data to support business decision-making.
 
 ## Business Context:
 
@@ -131,6 +154,47 @@ This snowflake hierarchy enables scalable product categorization and category-le
 ### Data Model Diagram
 
 <img width="1919" height="1018" alt="AW_Dashboard_Data_Model" src="https://github.com/user-attachments/assets/d1002c4a-b6c2-4905-914f-c582256e8832" />
+
+
+
+## Key DAX Measures
+
+**Total Revenue:**
+
+```Total Revenue = SUMX('Sales Data','Sales Data'[OrderQuantity] * RELATED('Product Lookup'[ProductPrice]))```
+
+Calculates total revenue generated from all sales transactions.
+
+**Total Orders:**
+
+```Total Orders = DISTINCTCOUNT('Sales Data'[OrderNumber])```
+
+Counts the number of unique customer orders in the dataset.
+
+**Total Cost:**
+
+```Total Cost = SUMX('Sales Data','Sales Data'[OrderQuantity] * RELATED('Product Lookup'[ProductCost]))```
+
+Calculates the total cost incurred for all products sold based on product cost and order quantities.
+
+**Quantity Sold:**
+
+```Quantity Sold = SUM('Sales Data'[OrderQuantity])```
+
+Calculates the total number of product units sold across all sales transactions.
+
+**Total Profit:**
+
+```Total Profit = [Total Revenue] - [Total Cost]```
+
+Measures overall business profitability.
+
+**Return Rate:**
+
+```Return Rate = DIVIDE([Quantity Returned],[Quantity Sold],"No Sales")```
+
+Calculates the percentage of returned products relative to total orders.
+
 
 
 ## Key Business Metrics (KPIs):
