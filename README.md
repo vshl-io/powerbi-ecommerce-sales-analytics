@@ -4,7 +4,7 @@
 
 An interactive Power BI dashboard analyzing e-commerce sales performance, customer behavior, product demand, and geographic trends using the AdventureWorks retail dataset.
 
-## Project Highlights:
+## Project Highlights
 
 - Hybrid Star + Snowflake data model
 
@@ -21,7 +21,7 @@ An interactive Power BI dashboard analyzing e-commerce sales performance, custom
 - Multi-page business intelligence reporting dashboard
 
 
-## Project Overview:
+## Project Overview
 
 This project analyzes an **e-commerce retail dataset (AdventureWorks)** using Microsoft Power BI to generate business insights around sales performance, customer behavior, product demand, and geographic distribution.
 
@@ -29,13 +29,13 @@ The dashboard simulates how an **e-commerce organization monitors operational pe
 
 The report is designed to support **data-driven decision making through interactive visual analytics**.
 
-## Business Problem:
+## Business Problem
 
 E-commerce companies generate large volumes of transactional data across products, customers, and geographic regions. Business teams need a clear way to monitor sales performance, identify high-performing products, track return rates, and understand customer purchasing behavior.
 
 Without structured analytics, it becomes difficult for decision-makers to quickly identify trends and take action.
 
-## Analytical Approach:
+## Analytical Approach
 
 To address this problem, a Power BI dashboard was developed using the AdventureWorks retail dataset.
 
@@ -51,7 +51,7 @@ The solution includes:
 
 - Row-Level Security (RLS) implementation to simulate regional data access control for enterprise reporting scenarios
 
-## Outcome:
+## Outcome
 
 The dashboard enables stakeholders to:
 
@@ -71,7 +71,7 @@ This demonstrates how Power BI can transform raw transactional data into actiona
 
 This project aligns with my professional experience working with large-scale **e-commerce catalog and operational datasets at Amazon**, where I analyzed product performance, returns, and marketplace data to support business decision-making.
 
-## Business Context:
+## Business Context
 
 AdventureWorks is modeled as **a global e-commerce retailer** selling products such as bikes, accessories, and clothing across multiple regions.
 
@@ -90,7 +90,7 @@ Business users typically want answers to questions such as:
 This dashboard provides an interactive environment to explore these questions.
 
 
-## Tools & Technologies:
+## Tools & Technologies
 
 - Microsoft Power BI
 
@@ -103,7 +103,7 @@ This dashboard provides an interactive environment to explore these questions.
 - Data Visualization
 
 
-## Data Model:
+## Data Model
 
 **Schema Design:**
 
@@ -196,7 +196,7 @@ Calculates the percentage of returned products relative to total orders.
 
 
 
-## Key Business Metrics (KPIs):
+## Key Business Metrics (KPIs)
 
 The dashboard tracks several important **e-commerce performance indicators**:
 
@@ -225,7 +225,7 @@ The dashboard tracks several important **e-commerce performance indicators**:
 These KPIs allow stakeholders to quickly monitor business performance.
 
 
-## Dashboard Pages:
+## Dashboard Pages
 
 **1. Executive Dashboard**
 
@@ -304,7 +304,7 @@ Key insights include:
 This helps businesses identify **high-value customer segments**.
 
 
-## Drill-Through Navigation:
+## Drill-Through Navigation
 
 The dashboard supports **context-based drill-through navigation** for deeper analysis.
 
@@ -320,7 +320,7 @@ Executive Dashboard
 The product detail page automatically filters the report based on the selected product, allowing detailed analysis without cluttering the main dashboard.
 
 
-## Custom Tooltip Pages:
+## Custom Tooltip Pages
 
 The dashboard uses custom tooltip pages to provide additional contextual insights without cluttering the main visuals.
 
@@ -355,7 +355,7 @@ Custom tooltips improve the user experience by enabling **quick access to deeper
 This allows the tooltip to dynamically filter based on the category being hovered.
 
 
-## Row Level Security (RLS):
+## Row Level Security (RLS)
 
 Row-Level Security was implemented to restrict dashboard access based on **regional roles**.
 
@@ -372,7 +372,7 @@ RLS rules were implemented using **DAX filters on the Territory dimension**, ens
 This simulates **enterprise-level data governance and secure reporting access**.
 
 
-## Analytical Capabilities:
+## Analytical Capabilities
 
 The dashboard enables analysis across multiple business dimensions:
 
@@ -391,7 +391,7 @@ The dashboard enables analysis across multiple business dimensions:
 These insights help businesses optimize **inventory, pricing, and marketing strategies**.
 
 
-## Business Insights:
+## Business Insights
 
 Example insights derived from the dashboard:
 
@@ -408,7 +408,7 @@ Example insights derived from the dashboard:
 These insights help guide **strategic product and sales decisions**.
 
 
-## Skills Demonstrated:
+## Skills Demonstrated
 
 This project demonstrates the following analytical and BI skills:
 
@@ -430,7 +430,7 @@ This project demonstrates the following analytical and BI skills:
 
 - Business KPI tracking
 
-## Screenshots:
+## Screenshots
 
 **Executive Dashboard**
 
