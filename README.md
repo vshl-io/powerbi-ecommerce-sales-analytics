@@ -8,6 +8,7 @@ The dashboard simulates how an **e-commerce organization monitors operational pe
 
 The report is designed to support **data-driven decision making through interactive visual analytics**.
 
+
 **Business Context:**
 
 AdventureWorks is modeled as **a global e-commerce retailer** selling products such as bikes, accessories, and clothing across multiple regions.
@@ -26,6 +27,7 @@ Business users typically want answers to questions such as:
 
 This dashboard provides an interactive environment to explore these questions.
 
+
 **Tools & Technologies:**
 
 - Microsoft Power BI
@@ -37,6 +39,7 @@ This dashboard provides an interactive environment to explore these questions.
 - Data Modeling
 
 - Data Visualization
+
 
 **Data Model:**
 
@@ -84,9 +87,11 @@ The product dimension is normalized into a hierarchical structure:
 
 This snowflake hierarchy enables scalable product categorization and category-level analysis.
 
+
 **Data Model Diagram**
 
 <img width="1919" height="1018" alt="AW_Dashboard_Data_Model" src="https://github.com/user-attachments/assets/d1002c4a-b6c2-4905-914f-c582256e8832" />
+
 
 **Key Business Metrics (KPIs):**
 
@@ -116,7 +121,9 @@ The dashboard tracks several important **e-commerce performance indicators**:
 
 These KPIs allow stakeholders to quickly monitor business performance.
 
+
 **Dashboard Pages:**
+
 **1. Executive Dashboard**
 
 Provides a **high-level overview of e-commerce performance**.
@@ -193,6 +200,7 @@ Key insights include:
 
 This helps businesses identify **high-value customer segments**.
 
+
 **Drill-Through Navigation:**
 
 The dashboard supports **context-based drill-through navigation** for deeper analysis.
@@ -207,6 +215,42 @@ Executive Dashboard
 → Product Detail Page
 
 The product detail page automatically filters the report based on the selected product, allowing detailed analysis without cluttering the main dashboard.
+
+
+**Custom Tooltip Pages:**
+
+The dashboard uses custom tooltip pages to provide additional contextual insights without cluttering the main visuals.
+
+When users hover over the Orders by Category bar chart, a tooltip panel appears showing:
+
+- Total Revenue
+
+- Total Profit
+
+- Total Orders
+
+- Total Returns
+
+- Return Rate
+
+- Weekly Orders Trend
+
+This tooltip is implemented using a **dedicated tooltip page**, allowing the dashboard to present **rich contextual insights while keeping the primary dashboard clean and focused.**
+
+Custom tooltips improve the user experience by enabling **quick access to deeper insights through simple hover interactions**.
+
+**How This Works (Technical Implementation)**
+
+  1. A tooltip page was created in Power BI.
+
+  2. Page type was configured as Tooltip.
+
+  3. Visualizations were added to display key metrics and trends.
+
+  4. The tooltip page was assigned to the Orders by Category visual.
+
+This allows the tooltip to dynamically filter based on the category being hovered.
+
 
 **Row Level Security (RLS):**
 
@@ -223,6 +267,7 @@ Three roles were configured:
 RLS rules were implemented using **DAX filters on the Territory dimension**, ensuring that users only see sales data relevant to their assigned region.
 
 This simulates **enterprise-level data governance and secure reporting access**.
+
 
 **Analytical Capabilities:**
 
@@ -242,6 +287,7 @@ The dashboard enables analysis across multiple business dimensions:
 
 These insights help businesses optimize **inventory, pricing, and marketing strategies**.
 
+
 **Business Insights:**
 
 Example insights derived from the dashboard:
@@ -257,6 +303,7 @@ Example insights derived from the dashboard:
 - A small group of customers contributes significantly to overall revenue.
 
 These insights help guide **strategic product and sales decisions**.
+
 
 **Skills Demonstrated:**
 
@@ -279,3 +326,26 @@ This project demonstrates the following analytical and BI skills:
 - Geographic data visualization
 
 - Business KPI tracking
+
+**Screenshots:**
+
+**Executive Dashboard**
+
+<img width="1919" height="1020" alt="image" src="https://github.com/user-attachments/assets/91cb23c3-c81d-4870-a13d-331070c90374" />
+
+**Geographic Sales Analysis**
+
+<img width="1919" height="1018" alt="image" src="https://github.com/user-attachments/assets/1bf28fd6-7f2d-44f6-b575-72950f928db6" />
+
+**Product Detail Analysis**
+
+<img width="1919" height="1018" alt="image" src="https://github.com/user-attachments/assets/a45abc9d-d0da-43c3-89c9-15f092986cec" />
+
+**Customer Analysis**
+
+<img width="1919" height="1020" alt="image" src="https://github.com/user-attachments/assets/8028a292-5248-4eff-9f6e-09280cce4c6b" />
+
+**Data Model**
+
+<img width="1919" height="1018" alt="AW_Dashboard_Data_Model" src="https://github.com/user-attachments/assets/d1002c4a-b6c2-4905-914f-c582256e8832" />
+
