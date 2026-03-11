@@ -1,5 +1,7 @@
 # Power BI E-Commerce Sales Analytics Dashboard
 
+### Dashboard Preview
+
 <img width="1919" height="1020" alt="image" src="https://github.com/user-attachments/assets/91cb23c3-c81d-4870-a13d-331070c90374" /> <br/>
 
 An interactive Power BI dashboard analyzing e-commerce sales performance, customer behavior, product demand, and geographic trends using the AdventureWorks retail dataset.
@@ -432,30 +434,29 @@ This project demonstrates the following analytical and BI skills:
 
 ## Screenshots
 
-**Executive Dashboard**
+### Executive Dashboard
 
 <img width="1919" height="1020" alt="image" src="https://github.com/user-attachments/assets/91cb23c3-c81d-4870-a13d-331070c90374" /> <br/>
 
-**Geographic Sales Analysis**
+### Geographic Sales Analysis
 
 <img width="1919" height="1018" alt="image" src="https://github.com/user-attachments/assets/1bf28fd6-7f2d-44f6-b575-72950f928db6" /> <br/>
 
-**Product Detail Analysis**
+### Product Detail Analysis
 
 <img width="1919" height="1018" alt="image" src="https://github.com/user-attachments/assets/a45abc9d-d0da-43c3-89c9-15f092986cec" /> <br/>
 
-**Customer Analysis**
+### Customer Analysis
 
 <img width="1919" height="1020" alt="image" src="https://github.com/user-attachments/assets/8028a292-5248-4eff-9f6e-09280cce4c6b" /> <br/>
 
-**Data Model**
-
-<img width="1919" height="1018" alt="AW_Dashboard_Data_Model" src="https://github.com/user-attachments/assets/d1002c4a-b6c2-4905-914f-c582256e8832" /> <br/>
-
-**Tooltip**
+### Tooltip
 
 <img width="1919" height="1020" alt="image" src="https://github.com/user-attachments/assets/912856b5-f5b8-4a1c-8444-36b3668ad925" /> <br/>
 
+### Data Model
+
+<img width="1919" height="1018" alt="AW_Dashboard_Data_Model" src="https://github.com/user-attachments/assets/d1002c4a-b6c2-4905-914f-c582256e8832" /> <br/>
 
 ### Author
 
