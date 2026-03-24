@@ -2,7 +2,7 @@
 
 ### Dashboard Preview
 
-<img width="1919" height="1020" alt="image" src="https://github.com/user-attachments/assets/91cb23c3-c81d-4870-a13d-331070c90374" /> <br/>
+<img width="1919" height="1019" alt="image" src="https://github.com/user-attachments/assets/6f1b3b84-dd6e-42fa-b99e-9e0ab550141d" /> <br/>
 
 An interactive Power BI dashboard analyzing e-commerce sales performance, customer behavior, product demand, and geographic trends using the AdventureWorks retail dataset.
 
@@ -436,11 +436,11 @@ This project demonstrates the following analytical and BI skills:
 
 ### Executive Dashboard
 
-<img width="1919" height="1020" alt="image" src="https://github.com/user-attachments/assets/91cb23c3-c81d-4870-a13d-331070c90374" /> <br/>
+<img width="1919" height="1019" alt="image" src="https://github.com/user-attachments/assets/9e238dd1-caa5-47c1-a250-688886acdd6b" /> <br/>
 
 ### Geographic Sales Analysis
 
-<img width="1919" height="1018" alt="image" src="https://github.com/user-attachments/assets/1bf28fd6-7f2d-44f6-b575-72950f928db6" /> <br/>
+<img width="1919" height="1019" alt="image" src="https://github.com/user-attachments/assets/75a128c6-bc8b-4cb1-9a31-6dfb3c15648e" /> <br/>
 
 ### Product Detail Analysis
 
@@ -448,11 +448,11 @@ This project demonstrates the following analytical and BI skills:
 
 ### Customer Analysis
 
-<img width="1919" height="1020" alt="image" src="https://github.com/user-attachments/assets/8028a292-5248-4eff-9f6e-09280cce4c6b" /> <br/>
+<img width="1919" height="1017" alt="image" src="https://github.com/user-attachments/assets/5ff26376-4fa9-46a3-89be-c60b798e3f43" /> <br/>
 
 ### Tooltip
 
-<img width="1919" height="1020" alt="image" src="https://github.com/user-attachments/assets/912856b5-f5b8-4a1c-8444-36b3668ad925" /> <br/>
+<img width="1919" height="1018" alt="image" src="https://github.com/user-attachments/assets/d79d7245-13a7-4f75-80c1-1d0916bed78c" /> <br/>
 
 ### Data Model
 
